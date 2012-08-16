@@ -1,9 +1,9 @@
-opa:
-    type: custom
-    buildscript: builder
+www:
+    type: nodejs
+    prebuild: ~/current/builder
     process: ~/run
-    ports:
-        www: http
+    config:
+        node_version: v0.6.x
 
 db:
     type: mongodb
