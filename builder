@@ -9,11 +9,4 @@ if [ ! -d ~/opa ] ; then
     sh install -- ~/opa
 fi
 
-# Runscript
-cp run ~/
-
-# Install the code
-cp app.opa ~/
-
-# Compiling the OPA app
-cd ~ && ./opa/bin/opa app.opa -o app.js
+~/opa/bin/opa app.opa -o app.js
