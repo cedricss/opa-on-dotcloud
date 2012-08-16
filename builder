@@ -9,4 +9,4 @@ if [ ! -d ~/opa ] ; then
     sh install -- ~/opa
 fi
 
-~/opa/bin/opa app.opa -o app.js
+make
