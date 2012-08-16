@@ -1,7 +1,6 @@
 www:
     type: nodejs
     prebuild: ~/current/builder
-    process: ~/run
     config:
         node_version: v0.6.x
 
