@@ -7,8 +7,6 @@ if [ ! -d ~/opa ] ; then
     mkdir ~/opa
     wget $BINURL -O install
     sh install -- ~/opa
-    # Install node dependencies
-    (cd ~ && npm install mongodb formidable nodemailer imap)
 fi
 
 # Runscript
